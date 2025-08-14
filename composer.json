@@ -1,0 +1,15 @@
+{
+    "name": "muham/gsi",
+    "description": "project general steel indonesia",
+    "type": "library",
+    "require": {
+        "dompdf/dompdf": "dev-master",
+        "setasign/fpdf": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muham\\Gsi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

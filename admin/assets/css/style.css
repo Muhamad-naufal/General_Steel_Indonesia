@@ -1,0 +1,21 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Dashboard styling */
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Sidebar Styling */
+/* Tambahkan di file CSS atau tag <style> */
+.sidebar {
+  background-color: #343a40;
+  min-height: 100vh;
+  padding: 1rem;
+}
