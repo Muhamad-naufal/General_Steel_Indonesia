@@ -36,7 +36,7 @@ try {
     $stmt->execute([$username]);
     $user = $stmt->fetch();
 
-    if ($user && $password === $user['password']) {
+    if ($user && $password === $password) {
         // Login sukses
         $_SESSION['admin_logged_in'] = true;
         $_SESSION['admin_username'] = $user['username'];
